@@ -1,0 +1,133 @@
+.site-in{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(89, 60, 31);
+    height: 20vh;
+    color: blanchedalmond;
+    font-family: 'Mansalva', cursive;
+}
+
+nav a{
+    color:  rgb(89, 60, 31);
+    display: inline-block;
+    background: blanchedalmond;
+    margin: 10px;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    margin: 20px 40px;
+}
+
+.main-in{
+    height: 60vh;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'lato';
+}
+
+.main-in-register{
+    height: 50vh;
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mansalva', cursive;
+
+}
+
+.img-logo{
+    width: 400px;
+    float:left;
+}
+
+.img-logo-register{
+    width: 400px;
+    float:left;
+}
+
+
+
+
+.footer-in{
+    background: rgb(89, 60, 31);
+    color: blanchedalmond;
+    font-size: 14px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-footer nav a{
+    font-size: 14px;
+    color: rgb(89, 60, 31);
+    text-decoration: none;
+    justify-content: center;
+    margin: 20px 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-in .info{
+    justify-content: center;
+}
+
+.list-pets{
+    width: 80%;
+    height: 50vh;
+    justify-content: center;
+    margin: auto;
+}
+
+h2{
+    background: #a7a7a7;
+    color: black;
+    display: block;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.register-form{
+    margin-left: 0px;
+
+}
+
+input{
+    width: 500px;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+}
+
+#regbtn{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    background-color: #efefef;
+}
+
+.btn{
+    background: #a7a7a7;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Mansalva', cursive;
+} 
+
+.search{
+    width: 500px;
+    margin-top: 5px;
+    align-content: right;
+
+}

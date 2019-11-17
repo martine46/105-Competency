@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Mansalva&display=swap" rel="stylesheet"> 
+    <title>Mutt Cutts Salon</title>
+</head>
+<body>
+
+    <header class="site-in">
+        <h1>Mutt Cutts</h1>
+        <div class="menu">
+            <nav>
+                <a href="index.html" target="_self">Home</a>
+                <a href="registration.html" target="_self">Register</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-in-register">
+
+        <div class="img-section">
+            
+            <img src="muttcutts.jpg" alt="logo" class="img-logo-register">
+            <div class="info">
+                
+                </div>
+        </div>
+        <div class="register-form">
+            <form action="#">
+                <p>Name: <input type="text" id="name" placeholder="Pet's Name"> </p>
+                <p>Age: <input type="text" name="age" id="age" placeholder="Pet's Age"></p>
+                <p>Type: <input type="text" id="type"></p>
+                <p>Gender: <input type="text" id="gender"></p>
+                <p>Breed: <input type="text" id="breed"></p>
+                <p>Service: <select name="service" id="service">
+                    <option value="" disabled selected>---Select a service----</option>
+                    <option value="Shower">Shower</option>
+                    <option value="Haircut">Haircut</option>
+                    option
+                    <option value="Nail Clipping">Nail Clipping</option>
+                    <option value="Full Service">Full Service</option>
+                </select>
+                <p>Owner's Name: <input type="text" id="ownerName"></p>
+                <p>Contact Phone: <input type="text" id="contactPhone"></p>
+
+
+                
+            </form>
+            <input id="regbtn" type="Submit" value="register" class="btn" onclick='register();'>
+
+            <div class="search">
+                <input id="search" id="inputSearch" type="text"> 
+                <button onclick="search();">Search</button>
+            </div>
+            
+        </div>
+        
+    </main>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <section class="list-pets">
+        <h2>Registered Pets</h2>
+        <table class="table table-striped table-dark" id="petTable">
+            <thead>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Type</th>
+                <th>Breed</th>
+                <th>Service</th>
+                <th>Owner's Name</th>
+                <th>Contact Phone</th>
+                <th>Options</th>
+            </thead>
+            <tbody id="listBody">       
+
+            </tbody>
+
+        </table>
+    </section>
+
+
+    <footer class="footer-in">
+        <div class="menu-footer">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="registration.html">Register</a>
+            </nav>
+        </div>
+        <div class="info">
+
+        </div>
+    </footer>
+
+    
+    <script src="105.js"></script>    
+</body>
+</html>
